@@ -15,8 +15,8 @@ Mobile application that makes it easier and increases public awareness to recycl
 3. Reedem point
 
 ## Software & API ##
-1. Android Studio
-2. Google Maps API
+1. [Android Studio](https://developer.android.com/studio)
+2. [Google Maps API](https://developers.google.com/maps/documentation/javascript/get-api-key)
 
 -------------------------------
 Click the link below to see the prototype
