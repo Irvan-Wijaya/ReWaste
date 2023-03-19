@@ -1,23 +1,27 @@
-ReWaste
+#ReWaste
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Mobile application that makes it easier and increases public awareness to recycle. With the system of exchanging trash into points, users can exchange it for prizes available in the application. 
 
-How does it work? 
+##How does it work? 
 1. First the user determines the nearest garbage collection point
 2. Then we will weigh it and it will be calculated into points 
 3. User get the points then can be exchanged for vouchers, discounts or other prizes.
 
-Features
-1. Login / Register -> connect to database
-2. Google Maps -> using google maps API's
+##Features
+1. Login / Register
+2. Google Maps 
 3. Reedem point
+
+Software & API
+1. Android Studio
+2. Google Maps API
 
 -------------------------------
 Click the link below to see the prototype
 
-https://docs.google.com/viewer?url=https://github.com/Irvancode/ReWaste/files/11010584/ReWaste.App.pdf
+Figma : https://www.figma.com/file/tvGyGK2n2pF6UNGOHC2QgO/ReWaste-App?node-id=0%3A1&t=6Rojpb0VoJWkO8Vs-1
 
 ---
 Path to Main Code
