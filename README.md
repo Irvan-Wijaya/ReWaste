@@ -21,7 +21,7 @@ Mobile application that makes it easier and increases public awareness to recycl
 -------------------------------
 Click the link below to see the prototype
 
-Figma : https://www.figma.com/file/tvGyGK2n2pF6UNGOHC2QgO/ReWaste-App?node-id=0%3A1&t=6Rojpb0VoJWkO8Vs-1
+[Figma](https://www.figma.com/file/tvGyGK2n2pF6UNGOHC2QgO/ReWaste-App?node-id=0%3A1&t=6Rojpb0VoJWkO8Vs-1)
 
 ---
 Path to Main Code
