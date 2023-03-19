@@ -15,5 +15,7 @@ Features
 3. Reedem point
 
 -------------------------------
+https://docs.google.com/viewer?url=https://github.com/Irvancode/ReWaste/files/11010584/ReWaste.App.pdf
+
 Path to Main Code
 Login -> App -> src -> main -> java/com/exmample/login
