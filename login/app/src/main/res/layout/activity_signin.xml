@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register"
+    android:backgroundTint="@color/cardview_dark_background"
+    android:padding="40dp">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambarw"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/gambarw"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/panah"
+        android:layout_marginTop="30dp"
+        android:id="@+id/panah"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gambarLogin"
+        android:src="@drawable/gambar2"
+        android:layout_below="@id/subtitle"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:layout_below="@+id/panah"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:id="@+id/signTitle"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help the environment while you earn."
+        android:layout_below="@+id/signTitle"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:id="@+id/subtitle"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/gambarLogin"
+        android:id="@+id/LY">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape2"
+            android:backgroundTint="@color/white"
+            android:hint="Enter your Email"
+            android:paddingLeft="10dp"
+            android:id="@+id/Email"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape2"
+            android:backgroundTint="@color/white"
+            android:hint="Enter your Password"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/password"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LY"
+        android:layout_centerHorizontal="true"
+        android:text="Log In"
+        android:width="200dp"
+        android:id="@+id/btnSignup"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tvCreateAccount"
+        android:text="Don't have ReWaste account? Sign up, it's free!"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/reWaste"
+        android:layout_below="@+id/btnSignup"
+        />
+
+</RelativeLayout>

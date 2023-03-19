@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtreWaste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:focusedByDefault="true"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="reWaste"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:autoSizeTextType="none"
+        android:textColor="@color/reWaste"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar_1"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtreWaste"
+        android:id="@+id/img1"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img1"
+        android:layout_centerHorizontal="true"
+        android:text="Sign Up"
+        android:width="200dp"
+        android:id="@+id/btnSignup"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSignup"
+        android:layout_centerHorizontal="true"
+        android:text="Log in"
+        android:width="200dp"
+        android:id="@+id/btnLogin"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_shape2"
+        android:textColor="@color/reWaste"
+        />
+
+</RelativeLayout>

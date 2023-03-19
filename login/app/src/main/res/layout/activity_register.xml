@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register"
+    android:backgroundTint="@color/cardview_dark_background"
+    android:padding="40dp">
+
+
+    <ImageView
+        android:id="@+id/gambarw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/gambarw"
+        tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/panah"
+        android:layout_marginTop="30dp"
+        android:id="@+id/panah"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_below="@+id/panah"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:id="@+id/signTitle"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help the environment while you earn."
+        android:layout_below="@+id/signTitle"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:id="@+id/subtitle"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/subtitle"
+        android:id="@+id/LY">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape2"
+            android:backgroundTint="@color/white"
+            android:hint="Enter your Full Name"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:id="@+id/Name"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape2"
+            android:backgroundTint="@color/white"
+            android:hint="Enter your Email"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:id="@+id/Email"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape2"
+            android:backgroundTint="@color/white"
+            android:hint="Enter your Password"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:id="@+id/password"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape2"
+            android:backgroundTint="@color/white"
+            android:hint="Confirm Password"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:id="@+id/confirmPassword"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="By tapping Sign up you acknowledge that you have"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:id="@+id/snk1"
+            android:textSize="14dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="agreed to the Terms and Conditions"
+            android:textColor="@color/reWaste"
+            android:id="@+id/snk2"
+            android:textSize="14dp"
+            android:textAlignment="center"
+            />
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:text="and read the Privacy Police"-->
+<!--            android:id="@+id/snk3"-->
+<!--            android:textSize="14dp"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="@color/reWaste"-->
+<!--            />-->
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LY"
+        android:layout_centerHorizontal="true"
+        android:text="Sign Up"
+        android:width="200dp"
+        android:id="@+id/btnSignup"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tvRegister"
+        android:text="Already have ReWaste account? Sign In here"
+        android:textAlignment="center"
+        android:textColor="@color/reWaste"
+        android:layout_below="@+id/btnSignup"
+        android:layout_marginTop="15dp">
+    </TextView>
+
+
+</RelativeLayout>

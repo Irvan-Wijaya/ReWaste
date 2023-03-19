@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home"
+    android:padding="40dp">
+
+    <ImageView
+        android:id="@+id/gambarw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/gambarw"
+        tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/panah"
+        android:layout_marginTop="30dp"
+        android:id="@+id/panah" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to rewaste"
+        android:layout_below="@+id/panah"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:id="@+id/signTitle"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help the environment while you earn."
+        android:layout_below="@+id/signTitle"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:id="@+id/subtitle"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gambarLogin"
+        android:src="@drawable/gambar2"
+        android:layout_below="@id/subtitle"
+        />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gambarLogin"
+        android:text="Recycle, Earn Points, and Get Rewards"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/desc"
+        android:layout_centerHorizontal="true"
+        android:text="Your points 150.000"
+        android:width="200dp"
+        android:id="@+id/btnPoints"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnPoints"
+        android:layout_centerHorizontal="true"
+        android:text="See all rewaste booth"
+        android:width="200dp"
+        android:id="@+id/btnBooth"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_shape2"
+        android:textColor="@color/reWaste"
+        />
+
+</RelativeLayout>

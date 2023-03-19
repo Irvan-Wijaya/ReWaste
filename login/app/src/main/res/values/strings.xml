@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">login</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="maps_api_key" translatable="false">AIzaSyD5WWlbbyqJoCT3V3j_OcsxDoedoZshPqo</string>
+</resources>
