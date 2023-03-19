@@ -15,6 +15,7 @@ Features
 3. Reedem point
 
 -------------------------------
+Click the link below to see the prototype
 https://docs.google.com/viewer?url=https://github.com/Irvancode/ReWaste/files/11010584/ReWaste.App.pdf
 
 Path to Main Code
