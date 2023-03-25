@@ -27,3 +27,9 @@ Click [here](https://www.figma.com/file/tvGyGK2n2pF6UNGOHC2QgO/ReWaste-App?node-
 Path to Main Code
 
 Login -> App -> src -> main -> java/com/exmample/login
+
+## Credits
+This mobile applications was made by
+- Irvan Wijaya 
+- Jasson Laurent 
+- Vincentius Marco Melandri 
